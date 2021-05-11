@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 import sklearn
 app = Flask(__name__,template_folder='Templates')
-model = pickle.load(open('Forest_Fire_Prediction.pkl', 'rb'))
+model = pickle.load(open('Forest_Fire_Predictionjp_Heroku.pkl', 'rb'))
 @app.route("/",methods=['GET'])
 @cross_origin()
 def home():
