@@ -5,6 +5,7 @@ import requests
 import pickle
 import numpy as np
 import sklearn
+from joblib import dump, load
 app = Flask(__name__,template_folder='Templates')
 model = load('Forest_Fire_Predictionjp_Heroku.pkl')
 @app.route("/",methods=['GET'])
