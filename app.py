@@ -29,18 +29,12 @@ def predict():
         acq_time = int(request.form['acq_time'])
         # confidence
         confidence = int(request.form['confidence'])
-        # day
-        day = int(request.form['day'])
-        # month
-        month = int(request.form['month'])
-        # year
-        year = int(request.form['year'])
         daynight =(request.form['daynight'])
         if(daynight=='day'):
             daynight=1
         else:
             daynight=0	
-        prediction=model.predict([[latitude,longitude,brightness,track,acq_time,confidence,day,month,year,daynight]])
+        prediction=model.predict([[latitude,longitude,brightness,track,acq_time,confidence,daynight]])
         output=round(prediction[0],2)
         if output>0:
             return render_template('predictor.html',prediction_text="Frp value is  {}".format(output))
