@@ -11,6 +11,40 @@ Forest Fire Prediction is a web app which has a Machine Learning model running a
 * Back-End: Flask
 * IDE: Jupyter notebook
 
+# Introduction
+# Forest Fire Prediction
+ Australia's fires have created devastation on an unprecedented scale. Australia’s forest fires are the worst 
+in the country’s recorded history. Already, millions of acres have burned, creating dangerous levels of air 
+pollution, displacing nearly 90,000 people and killing a billion animals.<br>
+ Forest Fire Prediction is a web app which has a Machine Learning model running at the back. The purpose 
+of developing this app is to predict fire (the measurement FRP (Fire radioactive power) which can be used 
+to detect fire). This model is based on the Forest Fire Prediction in Australia dataset. We are using the NASA 
+MODIS satellite data for predictions. The Australian Forest Fire has been devastating. Thanks to NASA the 
+satellite data by MODIS, data is made available publicly.<br> 
+ To bring some better understanding about the dataset we have also created a dashboard. This dashboard 
+has been created using a software called PowerBI which is a product of Microsoft. Here we have just 
+attached the images of the dashboard because PowerBI needs organizational account.
+
+# Motivation
+ The Forest Fire in Australia are a never-ending story of loss, tragedy, and record-setting moments. Forest 
+Fires in Australia are a widespread and regular occurrence that have contributed significantly to shaping the 
+nature of the continent over millions of years. Australia's fires have created devastation on an unprecedented
+scale. Australia’s forest fires are the worst in the country’s recorded history. Already, millions of acres have 
+burned, creating dangerous levels of air pollution, displacing nearly 90,000 people and killing a billion 
+animals. Forest fires causes significant material damage in the natural environment followed by violation of 
+the functions in the natural systems and large number of fires is caused by human, although other factors 
+like drought, wind, topography, plants etc. have important and indirect influence on fire appearance and its 
+spreading.
+
+# Problem Statement
+ Australia’s forest fires are the worst in the country’s recorded history. Australia's fires have created 
+devastation on an unprecedented scale. Australia’s forest fires are the worst in the country’s recorded history. 
+The purpose of developing this app is to predict fire (the measurement FRP (Fire radioactive power) which 
+can be used to detect fire). This model is based on the Forest Fire Prediction in Australia dataset. We are 
+using the NASA MODIS satellite data for predictions. We are considering data from 3 years i.e., 2018, 2019, 
+2020. Thanks to NASA the satellite data by MODIS, data is made available publicly. To bring some better 
+understanding about the dataset we have also created a dashboard. 
+
 # Design Model
 ![Design Model](githubimgs/design_Model.PNG)<br>
 Initially we started with the data collection that was done by requesting to NASA FIRMS. We are 
