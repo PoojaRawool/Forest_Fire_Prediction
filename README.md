@@ -49,5 +49,5 @@ deployed using Flask at Heroku and Azure.
 ![Predictor](githubimgs/Predictor.PNG)
 
 # Model Deployment
-* The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
+* The model is deployed using Flask at Heroku server at the [link](https://forestfirepredictionapp.herokuapp.com/)
 
