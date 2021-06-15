@@ -50,4 +50,5 @@ deployed using Flask at Heroku and Azure.
 
 # Model Deployment
 * The model is deployed using Flask at Heroku server at the [link](https://forestfirepredictionapp.herokuapp.com/)
+* The model is deployed using Flask at Azure server at the [link]()
 
