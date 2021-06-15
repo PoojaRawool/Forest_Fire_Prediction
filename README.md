@@ -10,7 +10,7 @@ Forest Fire Prediction is a web app which has a Machine Learning model running a
 * IDE: Jupyter notebook
 
 # Design Model
-![Design Model](githubimgs/design_Model.PNG)
+![Design Model](githubimgs/design_Model.PNG)<br>
 Initially we started with the data collection that was done by requesting to NASA FIRMS. We are 
 considering data from 3 years i.e. 2018, 2019, 2020. Then we have loaded the data of all the 3 years than we 
 have done the concatenation of all the 3 years. After that the raw data needed to be pre-processed to remove 
@@ -80,12 +80,12 @@ we performed the hyperparameter tuning using Optuna for which we got R-squared v
 97.22% and 99.6% on the training data.
 
 # Future Work
-• This web app is currently restricted to Australia but in future it can be built on the entire world 
+* This web app is currently restricted to Australia but in future it can be built on the entire world 
 dataset.
-• The dashboard has been created using a software called PowerBI which is a product of Microsoft. 
+* The dashboard has been created using a software called PowerBI which is a product of Microsoft. 
 Here we have just attached the images of the dashboard because PowerBI needs organizational 
 account. So we can create dashboard on the real time data.
-• Since the data size was huge the model that we have deployed on Heroku and Azure is built on NRT 
+* Since the data size was huge the model that we have deployed on Heroku and Azure is built on NRT 
 data we can try to deploy the model considering the entire data.
 
 # Model Deployment
