@@ -10,8 +10,8 @@ Forest Fire Prediction is a web app which has a Machine Learning model running a
 
 # Solution Approach
    Initially we started with the data collection that was done by requesting to NASA FIRMS. We are 
-considering data from 3 years i.e. 2018, 2019, 2020. Given below is the link to generate download request:
-# ["Archive Download - NASA | LANCE | FIRMS"](Archive Download - NASA | LANCE | FIRMS)
+considering data from 3 years i.e. 2018, 2019, 2020. Given below is the link to generate download request:<br>
+# ["Archive Download - NASA | LANCE | FIRMS"](Archive Download - NASA | LANCE | FIRMS)<br>
 Archive Download - NASA | LANCE | FIRMS
    You have to share the Email id to generate the download request, data source (MODIS/VIIRS), start date, 
 end date, output format, area of interest. Then you will receive the link to download the data via email. After 
