@@ -8,6 +8,9 @@ Forest Fire Prediction is a web app which has a Machine Learning model running a
 * Back-End: Flask
 * IDE: Jupyter notebook
 
+# Design Model
+![Design Model](githubimgs/design_Model.PNG)
+
 # Solution Approach
    Initially we started with the data collection that was done by requesting to NASA FIRMS. We are 
 considering data from 3 years i.e. 2018, 2019, 2020. Given below is the link to generate download request:<br>
@@ -45,8 +48,6 @@ deployed using Flask at Heroku and Azure.
 * Predictor:
 ![Predictor](githubimgs/Predictor.PNG)
 
-# Design Model
-![Design Model](githubimgs/design_Model.PNG)
 # Model Deployment
 * The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
 
