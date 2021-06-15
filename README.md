@@ -44,3 +44,9 @@ deployed using Flask at Heroku and Azure.
 ![Dashboard](githubimgs/dashboard.PNG)
 * Predictor:
 ![Predictor](githubimgs/Predictor.PNG)
+
+# Design Model
+![Design Model](githubimgs/design_Model.PNG)
+# Model Deployment
+* The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
+
