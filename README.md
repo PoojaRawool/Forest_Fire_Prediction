@@ -34,3 +34,17 @@ deployed using Flask at Heroku and Azure.
 * pip install package_name
 * Now for the final step. Run the app
 * python app.py
+
+# Some screenshots of the app
+* Landing Page:
+![Landing Page](githubimgs/landingpage.png)
+* About Rainy Brain:
+![About](githubimgs/about.png)
+* Dashboard:
+![Dashboard](githubimgs/dashboard.png)
+* Developer:
+![Developer](githubimgs/developer.png)
+* Predictor:
+![Predictor](githubimgs/predictor.png)
+* Result:
+![Result](githubimgs/result.png)
