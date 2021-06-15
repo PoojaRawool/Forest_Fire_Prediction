@@ -8,6 +8,23 @@ Forest Fire Prediction is a web app which has a Machine Learning model running a
 * Back-End: Flask
 * IDE: Jupyter notebook
 
+# Solution Approach
+   Initially we started with the data collection that was done by requesting to NASA FIRMS. We are 
+considering data from 3 years i.e. 2018, 2019, 2020. Given below is the link to generate download request:
+Archive Download - NASA | LANCE | FIRMS
+   You have to share the Email id to generate the download request, data source (MODIS/VIIRS), start date, 
+end date, output format, area of interest. Then you will receive the link to download the data via email. After 
+getting the data we have loaded the data of all the 3 years than we have done the concatenation of all the 3 
+years. After that the raw data needed to be pre-processed to remove the NAN / Missing values in which we 
+also tried doing various imputation but at the end we decided to drop those tuples as new category was 
+getting introduced after imputation. After data pre-processing, Exploratory Data Analysis (EDA) was 
+performed to get some insights about the data also we decided not to remove the outliers from the dataset 
+because considering our problem statement it was normal to have extreme values so outliers needs to be 
+identified. Then the feature selection was done based on the correlation. We tried out different algorithm 
+and at the end the algorithm that we decided to use for Frp prediction is Random Forest Regressor. After 
+selection of the algorithm, we also did the hyperparameter tuning using optuna. An at the end model is 
+deployed using Flask at Heroku and Azure.
+
 # How to run this app
 * First create a virtual environment by using this command:
 * conda create -n myenv python=3.7
