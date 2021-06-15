@@ -1,8 +1,10 @@
 # Forest_Fire_Prediction
 Forest Fire Prediction is a web app which has a Machine Learning model running at the back. The purpose of developing this app is to predict fire (the measurement FRP(Fire radioactive power) which can be used to detect fire). This model is based on the Forest Fire Prediction in Australia dataset. We are using the NASA MODIS satellite data for predictions. The Australian Forest Fire has been devastating. Thanks to NASA the satellite data by MODIS, data is made available publically.<br>
 <br>
-# Heroku Website Link: ["https://forestfirepredictionapp.herokuapp.com/"](https://forestfirepredictionapp.herokuapp.com/)
-# Azure Website Link: ["https://forestfireprediction.azurewebsites.net/"](https://forestfireprediction.azurewebsites.net/)
+# Heroku Website Link: <br>
+["https://forestfirepredictionapp.herokuapp.com/"](https://forestfirepredictionapp.herokuapp.com/)
+# Azure Website Link: <br>
+["https://forestfireprediction.azurewebsites.net/"](https://forestfireprediction.azurewebsites.net/)
 
 # Tech Stack
 * Front-End: HTML, CSS, Bootstrap
