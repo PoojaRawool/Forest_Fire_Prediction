@@ -37,10 +37,10 @@ deployed using Flask at Heroku and Azure.
 
 # Some screenshots of the app
 * Landing Page:
-![Landing Page](githubimgs/Landingpage.png)
+![Landing Page](githubimgs/Landingpage.PNG)
 * About Rainy Brain:
 ![About](githubimgs/About.PNG)
 * Dashboard:
-![Dashboard](githubimgs/dashboard.png)
+![Dashboard](githubimgs/dashboard.PNG)
 * Predictor:
-![Predictor](githubimgs/Predictor.png)
+![Predictor](githubimgs/Predictor.PNG)
