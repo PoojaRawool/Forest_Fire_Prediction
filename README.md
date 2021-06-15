@@ -10,7 +10,7 @@ Forest Fire Prediction is a web app which has a Machine Learning model running a
 
 # How to run this app
 * First create a virtual environment by using this command:
-* conda create -n myenv python=3.6
+* conda create -n myenv python=3.7
 * Activate the environment using the below command:
 * conda activate myenv
 * Then install all the packages by using the following command
